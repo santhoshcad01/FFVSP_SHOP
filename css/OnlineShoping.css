@@ -1,0 +1,92 @@
+body{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://i.postimg.cc/Y0SXgbjt/fruits-shop2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 50px;
+    background-color: #1447;
+}
+h1 a{
+text-decoration: none;
+color: rgb(128, 0, 79);
+}
+.sliding{
+display: flex;
+text-decoration-color: red;
+justify-content: center;
+place-items: center;
+background-color: rgb(112, 216, 199);
+}
+marquee{
+    gap: 50px;
+    font-size: 30px;
+}
+ul{
+
+    list-style-type: none;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 18px;
+    border: 1px solid #319e35;
+}
+li a:hover{
+    background-color: rgb(70, 136, 175);
+    color: yellowgreen;}
+
+
+    li a{
+        float: left;
+    }
+    .login{
+        float: right;
+        display: flex;
+    }
+    
+   .honey{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+   } 
+   .vg{
+    width: 200px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 10px;
+   }
+   .vg img{
+    width: 100%;
+    height: 30vh;
+   }
+
+
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
