@@ -1,16 +1,18 @@
-function myprogram(){
-    var a=12;
-    var b=25;
-    var c=30;
-
-    console.log(a);
+function registerform(){
+    var FirstName=document.getElementById("tbfn").value;
+    document.getElementById("fn").innerHTML=FirstName;
     
+    var LastName=document.getElementById("tbln").value;
+    document.getElementById("ln").innerHTML=LastName;
 
-    console.log(a+b);
-    console.log(a-b);
-    console.log(a*b);
-    console.log(a%b);
-    console.log(a+b+c);
+    var MiddleName=document.getElementById("tbmn").value;
+    document.getElementById("mn").innerHTML=MiddleName;
+
+    var PhoneNumber=document.getElementById("tbpn").value;
+    document.getElementById("pn").innerHTML=PhoneNumber;
+
+    var EmailId=document.getElementById("tbeid").value;
+    document.getElementById("eid").innerHTML=EmailId;
+
 
 }
-myprogram();
