@@ -11,7 +11,7 @@ function registerform(){
     var PhoneNumber=document.getElementById("tbpn").value;
     document.getElementById("pn").innerHTML=PhoneNumber;
 
-    var EmailId=document.getElementById("tbeid").value;
+    var EmailId=document.getElementById("tbgiteid").value;
     document.getElementById("eid").innerHTML=EmailId;
 
 
