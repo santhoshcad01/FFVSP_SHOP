@@ -1,4 +1,4 @@
-function operaterDemo()
+/*function operaterDemo()
 {
     var apple=10;
     var Orange=20;
@@ -51,5 +51,18 @@ function operaterDemo()
       }; 
 
 }
-operaterDemo();
+operaterDemo();*/
+
+function GetResultfun()
+{
+    var inputValue=document.getElementById("tb_value").value;
+    console.log(inputValue);
+
+    inputValue=Number(inputValue);
+
+    while(inputValue<20)
+    {
+        console.log()
+    }
+}
 
