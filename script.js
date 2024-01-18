@@ -1,4 +1,4 @@
-function registerform(){
+/*function registerform(){
     var FirstName=document.getElementById("tbfn").value;
     document.getElementById("fn").innerHTML=FirstName;
     
@@ -14,5 +14,16 @@ function registerform(){
     var EmailId=document.getElementById("tbgiteid").value;
     document.getElementById("eid").innerHTML=EmailId;
 
+
+}*/
+function GetResultfun()
+{
+    var inputValue=document.getElementById("tbfn").value;
+    console.log(inputValue);
+
+    for(inputValue;inputValue<20;inputValue++)
+    {
+        console.log("input value for loop" + inputValue + "is similer then 20");
+    }
 
 }
