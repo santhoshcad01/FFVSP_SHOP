@@ -55,14 +55,13 @@ operaterDemo();*/
 
 function GetResultfun()
 {
-    var inputValue=document.getElementById("tb_value").value;
+    var inputValue=document.getElementById("tbfn").value;
     console.log(inputValue);
 
-    inputValue=Number(inputValue);
-
-    while(inputValue<20)
+    for(inputValue;inputValue<20;inputValue++)
     {
-        console.log()
+        console.log("input value for loop" + inputValue + "is similer then 20");
     }
+
 }
 

@@ -15,7 +15,7 @@
     document.getElementById("eid").innerHTML=EmailId;
 
 
-}*/
+}
 function GetResultfun()
 {
     var inputValue=document.getElementById("tbfn").value;
@@ -27,3 +27,38 @@ function GetResultfun()
     }
 
 }
+
+function GetResultfun()
+{
+    var inputValue=document.getElementById("tbfn").value;
+    console.log(inputValue);
+     
+    inputValue=Number(inputValue);
+
+   while(inputValue<20)
+    {
+    console.log("input value "+ inputValue + " is smaller then 20");
+    var x=inputValue++;
+    console.log("input value "+ x + " is smaller than 20");
+}
+do{
+    console.log("input value "+ inputValue + " is smaller than 20");
+    inputValue++;
+}
+while(inputValue<15)
+}
+*/
+
+
+function GetResultfun()
+{
+    var inputValue=document.getElementById("tbfn").value;
+    console.log(inputValue);
+
+     while(inputValue<15)
+    {
+        
+        console.log("number input value "  + inputValue)
+    }
+}
+
