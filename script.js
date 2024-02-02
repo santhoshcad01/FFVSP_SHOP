@@ -61,7 +61,7 @@ function GetResultfun()
         console.log("number input value "  + inputValue)
     }
 }
-*/
+
 
 function GetResultfun()
 {
@@ -91,7 +91,15 @@ function GetResultfun()
 }
 GetResultfun();
 
+*/
 
-
-
+function GetResultfun()
+{
+    var listofnames=["alex", "bashee", "kalee", "dani", "rahuman","sk"];
+    console.log("length of array listofnames ..", listofnames.length);
+    console.log(listofnames[0]);
+    console.log(listofnames[1]);
+    console.table(listofnames); 
+  
+}
 
