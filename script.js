@@ -47,7 +47,7 @@ do{
 }
 while(inputValue<15)
 }
-*/
+
 
 
 function GetResultfun()
@@ -61,4 +61,37 @@ function GetResultfun()
         console.log("number input value "  + inputValue)
     }
 }
+*/
+
+function GetResultfun()
+{
+ var listofnames=["alex", "bashee", "kalee", "dani", "rahuman","sk"];
+ console.log("length of array listofnames ..", listofnames.length);
+ console.log(listofnames[0]);
+ console.log(listofnames[1]);
+ console.table(listofnames);
+ 
+ for(let a=0;a<listofnames.length;a++) 
+ {
+  console.log(listofnames[a]); //a==0;
+ }
+ 
+ console.log("output from for OF");
+ for (let name of listofnames)
+ {
+  console.log(name);
+ }
+ for (let a=0;a<listofnames.length;a++)
+ {
+    console.log(listofnames[a]);
+    if(a==2){
+        break;
+    }
+ }
+}
+GetResultfun();
+
+
+
+
 
