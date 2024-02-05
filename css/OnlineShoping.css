@@ -1,4 +1,7 @@
 
+*{
+    margin: 0;
+}
 img{
     width: 100px;
     height: 100px;
@@ -43,8 +46,6 @@ marquee{
 .table li a:hover{
     background-color: rgb(70, 136, 175);
     color: yellowgreen;
-
-
 }
 .table li a:visited{
     color: #5713b5;
@@ -56,7 +57,7 @@ marquee{
     display: flex;
 color: chocolate;
 position: relative;
-right: 235px;
+right: 155px;
 
   }
     li a{
@@ -67,6 +68,9 @@ right: 235px;
     .login{
         float: right;
         display: flex;
+        color: chocolate;
+position: relative;
+left: 79px;        
     }
 
     
@@ -117,15 +121,15 @@ footer {
 
 .bottomlist{
     position: relative;
-  
     display: flex;
-    border: 2px solid ;
+    border: 30px solid ;
     background-color: rgb(9, 3, 3);   
 }
 .bottomlist li a{
     position: relative;
     left: 300px;  
     color: white;
+    padding-inline: 15px;
 }
 
 .search-box.active input{
@@ -150,20 +154,54 @@ footer {
     padding-left: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+    display: flex;
+    gap: 10px 10px;
+    border-radius: 30px;
+    height: 50px ;
+    width: 20px;
+    padding-left: 970px;
 
-display: flex;
-gap: 40px 40px;
-border-radius: 30px;
-height: 50px ;
+  
 
 }
 
 .social{
-    font-family: audiowide;
-    font-size: 10px;
- padding-top: 45px;
-    padding-left: 100px;
+    background-color: rgb(17, 17, 17);
 }
+.socialmedia a{
+     width: 5px;
+     height: 1px;
+     font-family: audiowide;
+     font-size: 1px;
+
+   
+ }
+ .socialmedia a img{
+ width: 20px;
+ height: 20px;
+ padding-left: 20px;
+ padding-top: 5px;
+
+ }
+
+ .setting a img:hover , .ins a img:hover , .whats a img:hover , .tit a img:hover , .fb a img:hover{
+    background-color: #a41d1d;
+    color: rgb(240, 238, 238);
+    padding: 5px;
+    
+ }
+
+ @media screen and(max-height: 500px){
+
+    li a{
+        font-size: 10px;
+    }
+ }
+
+ 
+
+
+
 
 
 
