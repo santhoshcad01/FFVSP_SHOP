@@ -28,7 +28,7 @@ marquee{
     gap: 50px;
     font-size: 30px;
 }
-.table ul{
+.table-list ul{
 
     list-style-type: none;
     background-color: pink;
@@ -36,15 +36,15 @@ marquee{
     padding: 0;
     overflow: hidden;
 }
-.table li a{
+.table-list li a{
     display:block;
     text-align: center;
     text-decoration: none;
-    padding: 15px 18px;
-    border: 1px solid #319e35;
+    padding: 10px 15px;
+    border: 1px ;
 }
 .table-list li a:hover{
-    background-color: rgb(70, 136, 175);
+    background-color: rgb(122, 80, 43);
     color: yellowgreen;
 }
 .table-list li a:visited{
@@ -57,118 +57,198 @@ marquee{
     display: flex;
 color: chocolate;
 position: relative;
-right: 155px;
+right: 1px;
 
   }
    .table-list li a{
         float: left;
     }
 
-  
-          
-   
-
-
     /* Loing page */
 
-  
-.body-login{
-	background-image: url("https://i.postimg.cc/dVJJVgVv/desktop-wallpaper-food-fruit-vegetables-template-greeting-thumbnail.jpg");
-	background-repeat: no-repeat;
-	background-size:100%;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	
-}
-.login-main{
-	width: 350px;
-	height: 500px;
-	background: red;
-	overflow: hidden;
-	border-radius: 10px;
-	box-shadow: 5px 20px 50px #000;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-
-}
-#chk{
-	display: none;
-}
-.signup{
-	position: relative;
-	width:100%;
-	height: 100%;
-}
-label{
-	color: #fff;
-	font-size: 2.3em;
-	justify-content: center;
-	display: flex;
-	margin: 60px;
-	font-weight: bold;
-	cursor: pointer;
-	transition: .5s ease-in-out;
-}
-input{
-	width: 60%;
-	height: 20px;
-	background: #e0dede;
-	justify-content: center;
-	display: flex;
-	margin: 20px auto;
-	padding: 10px;
-	border: none;
-	outline: none;
-	border-radius: 5px;
-}
-button{
-	width: 60%;
-	height: 40px;
-	margin: 10px auto;
-	justify-content: center;
-	display: block;
-	color: #e71c1c;
-	background: #573b8a;
-	font-size: 1em;
-	font-weight: bold;
-	margin-top: 20px;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	transition: .2s ease-in;
-	cursor: pointer;
-}
-button:hover{
-	background: #6d44b8;
-}
-.login1{
-	height: 460px;
-	background-image: url("https://i.postimg.cc/GtjS7gwJ/desktop-wallpaper-fresh-fruits-and-vegetable-fresh-veggies-thumbnail.jpg");
-	border-radius: 60% / 10%;
-	transform: translateY(-180px);
-	transition: .8s ease-in-out;
-}
-.login1 label{
-	color: #573b8a;
-	transform: scale(.6);
-}
-
-#chk:checked ~ .login1{
-	transform: translateY(-500px);
-}
-#chk:checked ~ .login1 label{
-	transform: scale(1);	
-}
-#chk:checked ~ .signup1 label{
-	transform: scale(.6);
-}
+    .Login-body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Jost', sans-serif;
+      background-image: url("https://i.postimg.cc/cHC8ZN4c/images.jpg");
+        background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .main{
+      width: 300px;
+      height: 500px;
+      background: red;
+      overflow: hidden;
+      background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+      border-radius: 10px;
+      box-shadow: 5px 20px 50px #000;
+    }
+    #chk{
+      display: none;
+    }
+    .signup1{
+      position: relative;
+      width:100%;
+      height: 100%;
+    }
+    label{
+      color: #25b917;
+      font-size: 2.3em;
+      justify-content: center;
+      display: flex;
+      margin: 60px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: .5s ease-in-out;
+      color: #cf2424;
+    }
+    input{
+      width: 60%;
+      height: 20px;
+      background: #efecec;
+      justify-content: center;
+      display: flex;
+      margin: 20px auto;
+      padding: 10px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+    button{
+      width: 60%;
+      height: 40px;
+      margin: 10px auto;
+      justify-content: center;
+      display: block;
+      color: #fff;
+      background: #573b8a;
+      font-size: 1em;
+      font-weight: bold;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      transition: .2s ease-in;
+      cursor: pointer;
+    }
+    button:hover{
+      background: #7a39ca;
+    }
+    .login1{
+      height: 460px;
+      background: #c2e111;
+      border-radius: 60% / 10%;
+      transform: translateY(-180px);
+      transition: .8s ease-in-out;
+    }
+    .login1 label{
+      color: #e37711;
+      transform: scale(.6);
+    }
+    
+    #chk:checked ~ .login1{
+      transform: translateY(-500px);
+    }
+    #chk:checked ~ .login1 label{
+      transform: scale(1);	
+    }
+    #chk:checked ~ .signup1 label{
+      transform: scale(.6);
+    }
+    
 
 /* login page end */
-    
+  
+
+/* start search box */
+.search1-body{
+  display:grid;
+  height:100%;
+  place-items: center;
+  background: #490910;
+}
+.search1-box{
+position:relative;
+height:60px;
+width:0px;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
+}
+
+.search1-box.active{
+width: 350px;
+}
+
+.search1-box.active input{
+opacity:1;
+}
+
+.search1-box input{
+height:100%;
+width:100%;
+border:none;
+background:#f2e9e9;
+font-size:18px;
+border-radius: 50px;
+padding: 0 60px 0 20px;
+outline:none;
+opacity:0;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
+}
+.search1-box .search-btn{
+height:50px;
+width:50px;
+background: #fff;
+color:#664AFF;
+position: absolute;
+top:50%;
+right:-75px;
+transform: translateY(-50%);
+line-height:50px;
+text-align:center;
+border-radius:50%;
+font-size:20px;
+cursor:pointer;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
+z-index:2;
+}
+
+.search1-box.active .search-btn{
+height:50px;
+width:50px;
+background: #664AFF;
+color:#fff;
+}
+.search1-box .cancel-btn{
+position: absolute;
+color: #664AFF;
+top:50%;
+right: -75px;
+transform: translateY(-50%);
+color: #664;
+font-size: 25px;
+cursor:pointer;
+height: 50px;
+width: 50px;
+line-height: 50px;
+text-align: center;
+border-radius: 50%;
+opacity: 0;
+}
+
+.search1-box.active .cancel-btn{
+right: -135px;
+opacity:1;
+color:#fff;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
+}
+
+/* end search box */
+
+
 .imagecontainer{
     width: 100%;
 
@@ -357,6 +437,22 @@ footer {
     border: 200px;
 }
 
+
+/* begin the About page */
+
+.about-main-page{
+  margin: 0;
+  border: 0;
+}
+.about-side-menu-bar{
+  margin: 20px;
+  position: relative;
+  left: 10px;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 1px solid pink;
+}
+.abo
 
 
 

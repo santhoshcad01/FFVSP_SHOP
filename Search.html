@@ -5,91 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <style>
-    html,body{
-        display:grid;
-        height:100%;
-        place-items: center;
-        background: #490910;
-      }
-      .search-box{
-  position:relative;
-  height:60px;
-  width:0px;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
-}
-
-.search-box.active{
-  width: 350px;
-}
-
-.search-box.active input{
-  opacity:1;
-}
-
-.search-box input{
-  height:100%;
-  width:100%;
-  border:none;
-  background:#f2e9e9;
-  font-size:18px;
-  border-radius: 50px;
-  padding: 0 60px 0 20px;
-  outline:none;
-  opacity:0;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
-}
-.search-box .search-btn{
-  height:50px;
-  width:50px;
-  background: #fff;
-  color:#664AFF;
-  position: absolute;
-  top:50%;
-  right:-75px;
-  transform: translateY(-50%);
-  line-height:50px;
-  text-align:center;
-  border-radius:50%;
-  font-size:20px;
-  cursor:pointer;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
-  z-index:2;
-}
-
-.search-box.active .search-btn{
-  height:50px;
-  width:50px;
-  background: #664AFF;
-  color:#fff;
-}
-.search-box .cancel-btn{
-  position: absolute;
-  color: #664AFF;
-  top:50%;
-  right: -75px;
-  transform: translateY(-50%);
-  color: #664;
-  font-size: 25px;
-  cursor:pointer;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%;
-  opacity: 0;
-}
-
-.search-box.active .cancel-btn{
-  right: -135px;
-  opacity:1;
-  color:#fff;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
-}
-    </style>
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <div class="search-box">
+<body class="search-body">
+    <div class="search1-box">
         <input type="text" placeholder="Type to search..."/>
         <div class="search-btn">
           <i class="fas fa-search"></i>
