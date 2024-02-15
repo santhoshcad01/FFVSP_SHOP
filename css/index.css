@@ -249,22 +249,22 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
 /* end search box */
 
 
-.imagecontainer{
+.imgcontainer{
     width: 100%;
 
 
 }
 .swiper{
-    width: 1350px;
+    width: 1200px;
     height: 300px;
   }
 
 
   .swiper-slide img{
-    width: 1350px;
+    width: 1200px;
     height: 300px;
+    
   }
- 
     
    .honey{
     display: flex;
