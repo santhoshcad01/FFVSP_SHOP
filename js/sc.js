@@ -1,4 +1,4 @@
-function operaterDemo()
+/*function operaterDemo()
 {
     var apple=10;
     var Orange=20;
@@ -51,5 +51,17 @@ function operaterDemo()
       }; 
 
 }
-operaterDemo();
+operaterDemo();*/
+
+function GetResultfun()
+{
+    var inputValue=document.getElementById("tbfn").value;
+    console.log(inputValue);
+
+    for(inputValue;inputValue<20;inputValue++)
+    {
+        console.log("input value for loop" + inputValue + "is similer then 20");
+    }
+
+}
 
