@@ -1,0 +1,14 @@
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\bin\Debug\net7.0\Session-2.exe
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\bin\Debug\net7.0\Session-2.deps.json
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\bin\Debug\net7.0\Session-2.runtimeconfig.json
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\bin\Debug\net7.0\Session-2.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\bin\Debug\net7.0\Session-2.pdb
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.AssemblyInfoInputs.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.AssemblyInfo.cs
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.csproj.CoreCompileInputs.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\refint\Session-2.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.pdb
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\Session-2.genruntimeconfig.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\csharp\Session-2\obj\Debug\net7.0\ref\Session-2.dll
