@@ -465,6 +465,12 @@ gap: 100px;
 
 
 
+.setting a img:hover , .ins a img:hover , .whats a img:hover , .tit a img:hover , .fb a img:hover{
+  background-color: #eee3e3;
+  color: rgb(221, 74, 74);
+  padding: 5px;
+  
+}
 
 
 

@@ -1,0 +1,14 @@
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\bin\Debug\net7.0\dfd.exe
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\bin\Debug\net7.0\dfd.deps.json
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\bin\Debug\net7.0\dfd.runtimeconfig.json
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\bin\Debug\net7.0\dfd.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\bin\Debug\net7.0\dfd.pdb
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.AssemblyInfoInputs.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.AssemblyInfo.cs
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.csproj.CoreCompileInputs.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\refint\dfd.dll
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.pdb
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\dfd.genruntimeconfig.cache
+C:\Users\santhoshcad01\Desktop\CAD01\project\Santhoshsk03\csharp\Session-7\dfd\obj\Debug\net7.0\ref\dfd.dll
